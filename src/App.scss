@@ -1,0 +1,18 @@
+@import "./global.scss";
+
+.App {
+  text-align: center;
+  font-family: $font-display;
+  color: $white;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}

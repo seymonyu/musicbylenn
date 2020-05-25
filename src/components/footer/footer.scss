@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+.footer--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: $font-main;
+  font-size: 12pt;
+  position: fixed;
+  height: 100px;
+  background-color: $black;
+  bottom: 0;
+  width: 100%;
+}
+.footer--text {
+  width: 100px;
+  background: -webkit-linear-gradient(#2af598, #009efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer--links {
+  width: 70%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.footer--links_list {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.footer--links_item {
+  width: 80px;
+}
+.footer--links_link {
+  text-decoration: none;
+  &:visited {
+    color: $white;
+  }
+}
+.footer--icon {
+  width: 25px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+@keyframes slide {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 99%;
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../global.scss";
+
+.about--wrapper {
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: ease 1000ms;
+}
+.about--wrapper_white {
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $white;
+  color: $black;
+  transition: ease 1000ms;
+}
+.about--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about--text {
+  font-family: $font-main;
+  font-size: 14pt;
+  margin-top: 35px;
+  width: 55%;
+}
+.about--header {
+  position: absolute;
+}
+.about--image {
+  width: 800px;
+  padding-top: 150px;
+}
+.about--container_white {
+  /* background-color: $white;
+  color: $black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.about--container_ind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.about--box_ind {
+  width: 40%;
+  margin-bottom: 20px;
+}
+.about-img_ind {
+  padding: 40px;
+}
