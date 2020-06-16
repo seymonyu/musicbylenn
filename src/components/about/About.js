@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./about.scss";
-import Lenn from "../../images/Lenns.webp";
-import Lennart from "../../images/lennart.webp";
-import Len from "../../images/len.webp";
+import Lenn from "../../images/lenns.jpg";
+import Lennart from "../../images/lennart.JPG";
+import Len from "../../images/len.JPG";
 
 function About() {
   const [back, setBack] = useState("about--wrapper");
