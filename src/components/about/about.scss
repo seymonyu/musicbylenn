@@ -1,4 +1,11 @@
 @import "../../global.scss";
+p {
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .about--wrapper {
   height: 200vh;
@@ -41,24 +48,108 @@
   padding-top: 150px;
 }
 .about--container_white {
-  /* background-color: $white;
-  color: $black; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  margin-bottom:70px;
 }
 .about--container_ind {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+
 }
 .about--box_ind {
   width: 40%;
-  margin-bottom: 20px;
+ 
 }
 .about-img_ind {
+  width: 250px;
   padding: 40px;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+ 
+.about--image {
+display:none;
+}
+.about--container{
+  height:50vh;
+}
+.about--wrapper {
+  height:200vh;
+
+}
+.about--header{
+ position:absolute;
+ top:0px; 
+ 
+}
+.about--text {
+  margin-top: 120px;
+  font-family: $font-main;
+  font-size: 12pt;
+  width: 90%;
+}
+.about--box_ind {
+  width: 100%;
+
+}
+.about--wrapper_ind{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+ margin-top: 80vh;
+ height:200vh;
+margin-bottom: 120px;
+}
+.about-img_ind {
+display:none;
+ 
+}
+.about--container_ind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.about-box_ind{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.about--text_ind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin: 0 0 0 0;
+  font-family: $font-main;
+  font-size: 12pt;
+  width: 100%;
+ 
+}
+.about--container_white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+height:100vh;
+}
+}
+@media screen and (max-width: 900px) {
+ 
+
+}
+@media screen and (max-width: 1024px) {
+ 
+
 }

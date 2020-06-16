@@ -33,6 +33,7 @@ function About() {
         </p>
       </div>
       <div className="about--container_white">
+      <div className='about--wrapper_ind'>
         <div className="about--container_ind">
           <img className="about-img_ind" src={Lennart} alt="lennart" />
           <div className="about--box_ind">
@@ -64,6 +65,7 @@ function About() {
               entertains every visitor.
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>

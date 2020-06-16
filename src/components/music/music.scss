@@ -9,3 +9,28 @@
   flex-direction: column;
   transition: ease 1000ms;
 }
+.music--link_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.music--img {
+  border-radius: 50%;
+  width: 80px;
+}
+.music--button {
+  background: #2ebd59;
+  border-radius: 500px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 11px;
+  min-width: 92px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 10px 0 0;
+  float: left;
+}
