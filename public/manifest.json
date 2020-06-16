@@ -7,6 +7,11 @@
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
+     {
+      "src": "blacklogo.png",
+      "sizes": "64x30 32x20 24x12 16x10",
+      "type": "image/x-icon"
+    },
     {
       "src": "logo192.png",
       "type": "image/png",
