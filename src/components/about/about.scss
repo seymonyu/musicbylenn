@@ -125,7 +125,7 @@ display:none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
+  height:250px;
 }
 .about--text_ind {
   display: flex;
@@ -135,6 +135,7 @@ margin: 0 0 0 0;
   font-family: $font-main;
   font-size: 12pt;
   width: 100%;
+  
  
 }
 .about--container_white {
@@ -143,6 +144,13 @@ margin: 0 0 0 0;
   justify-content: center;
   flex-direction: column;
 height:100vh;
+}
+.about-box_ind{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:250px;
 }
 }
 @media screen and (max-width: 900px) {
