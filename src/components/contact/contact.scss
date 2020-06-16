@@ -139,3 +139,46 @@
   justify-content: center;
   margin-bottom: 100px;
 }
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+
+.contact--header {
+  text-transform: capitalize;
+  font-size: 50pt;
+}
+.contact--email {
+  font-size: 20pt;
+    background-image: url(https://media.giphy.com/media/7JvpuEKX5vzXTaS9EC/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+  &:hover{
+  font-size: 20pt;
+
+    
+  }
+ }
+ .contact--detail_header{
+
+   font-size: 20pt;
+ }
+.contact--click {
+  text-orientation: upright;
+
+  color: $white;
+
+  position: absolute;
+  top: 400px;
+  right: 10px;
+  font-size: 9pt;
+}
+.contact--up {
+  text-orientation: upright;
+  color: $white;
+  position: absolute;
+  top: 1100px;
+  right: 10px;
+  font-size: 9pt;
+}
+}

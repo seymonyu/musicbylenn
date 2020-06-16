@@ -1,37 +1,50 @@
 import React from "react";
 import "./media.scss";
+import { data } from "../../API/data";
+import { SRLWrapper } from "simple-react-lightbox";
+
 
 function Media() {
-  const images = [
-    "https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/21/13/33/blue-flax-5200811_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/21/13/33/blue-flax-5200811_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/21/13/33/blue-flax-5200811_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/21/13/33/blue-flax-5200811_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2020/05/21/13/33/blue-flax-5200811_960_720.jpg",
-  ];
+  const images = data.images;
+  const options = {
+  settings: {
+
+    autoplaySpeed: 1500,
+    transitionSpeed: 900,
+  },
+  buttons: {
+    backgroundColor: 'rgba(255, 255, 255, 0)',
+ size: "40px",
+   iconColor: '#009efd',
+    showNextButton:true,
+    showPrevButton: true,
+    
+  },
+  caption: {
+    captionColor: "#ffffff",
+    captionFontFamily: "Roboto, sans-serif",
+    captionFontWeight: "300",
+   
+  }
+};
 
   return (
     <div className="media--wrapper">
-      <div className="media--gallery">
+       <SRLWrapper options={options}>
+      <div className= "media--gallery">
         {images.map((item, index) => (
+          <div className="media--grid">
           <img
-            className="media--gallery_img "
+           
+            className= "media--gallery_img"
             key={index}
-            src={item}
-            alt="index"
+            src={item.url}
+            alt={item.caption}
           />
+          </div>
         ))}
       </div>
+        </SRLWrapper>
     </div>
   );
 }

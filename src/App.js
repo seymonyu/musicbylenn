@@ -8,7 +8,7 @@ import Media from "./components/media/Media";
 import Footer from "./components/footer/Footer";
 import Promo from "./components/promo/Promo";
 import Cursor from "./components/cursor/Cursor";
-import Slider from "./components/slider/Slider";
+import SimpleReactLightbox from "simple-react-lightbox";
 import { Route, Switch } from "react-router";
 import "./App.scss";
 
@@ -22,9 +22,8 @@ function App() {
         <Route path="/about" exact component={About} />
         <Route path="/music" exact component={Music} />
         <Route path="/promo" exact component={Promo} />
-        <Route path="/media" exact component={Media} />
-        <Route path="/media-slider" exact component={Slider} />
         <Route path="/contact" exact component={Contact} />
+        <SimpleReactLightbox><Route path="/media" exact component={Media} /></SimpleReactLightbox>
       </Switch>
       <Footer />
     </div>
