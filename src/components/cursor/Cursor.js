@@ -119,7 +119,7 @@ function Cursor() {
    * Applies mouseover/out hooks on all links
    * to trigger cursor animation
    */
-  const handleLinkHovers=()=> {
+  function handleLinkHovers() {
     document.querySelectorAll("a").forEach((el) => {
       el.addEventListener("mouseover", () => {
         cursorEnlarged.current = true;
