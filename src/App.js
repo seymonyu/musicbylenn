@@ -6,7 +6,7 @@ import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import Media from "./components/media/Media";
 import Footer from "./components/footer/Footer";
-/* import Cursor from "./components/cursor/Cursor"; */
+import Cursor from "./components/cursor/Cursor"; 
 import SimpleReactLightbox from "simple-react-lightbox";
 import { Route, Switch } from "react-router";
 import "./App.scss";
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-    {/*   <Cursor /> */}
+       <Cursor />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
