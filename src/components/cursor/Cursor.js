@@ -56,7 +56,7 @@ function Cursor() {
     // Handle Link Hovers
     handleLinkHovers();
     
- /*    return () => {
+     return () => {
       document.removeEventListener("mousemove", onMouseMove);
       document.removeEventListener("mouseenter", onMouseEnter);
       document.removeEventListener("mouseleave", onMouseLeave);
@@ -64,7 +64,7 @@ function Cursor() {
       document.removeEventListener("mouseup", onMouseUp);
       window.removeEventListener("resize", onResize);
       cancelAnimationFrame(requestRef.current);
-    }; */
+    }; 
   },[]);
 
   let { x, y } = mousePosition;
