@@ -11,7 +11,9 @@ import apple from "../../icons/apple.svg";
 function Footer() {
   return (
     <div className="footer--wrapper">
-      <div className="footer--text"> © 2019 LENN</div>
+      <div className="footer--text"> © 2020 <a className="seyma" target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/seymonyu/">seymonyu</a></div>
       <div className="footer--links">
         <ul className="footer--links_list">
           <li
