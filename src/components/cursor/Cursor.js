@@ -55,8 +55,8 @@ function Cursor() {
 
     // Handle Link Hovers
     handleLinkHovers();
-
-    return () => {
+    
+ /*    return () => {
       document.removeEventListener("mousemove", onMouseMove);
       document.removeEventListener("mouseenter", onMouseEnter);
       document.removeEventListener("mouseleave", onMouseLeave);
@@ -64,8 +64,8 @@ function Cursor() {
       document.removeEventListener("mouseup", onMouseUp);
       window.removeEventListener("resize", onResize);
       cancelAnimationFrame(requestRef.current);
-    };
-  }, []);
+    }; */
+  },[]);
 
   let { x, y } = mousePosition;
   const winDimensions = { width, height };
@@ -76,7 +76,7 @@ function Cursor() {
    * Position Dot (cursor)
    * @param {event}
    */
-  function positionDot(e) {
+  const positionDot=(e)=> {
     cursorVisible.current = true;
     toggleCursorVisibility();
     // Position the dot
@@ -89,7 +89,7 @@ function Cursor() {
   /**
    * Toggle Cursor Visiblity
    */
-  function toggleCursorVisibility() {
+  const toggleCursorVisibility=()=> {
     if (cursorVisible.current) {
       cursorDot.current.style.opacity = 1;
       cursorDotOutline.current.style.opacity = 1;
@@ -102,7 +102,7 @@ function Cursor() {
   /**
    * Toggle Cursor Size
    */
-  function toggleCursorSize() {
+  const toggleCursorSize=()=> {
     if (cursorEnlarged.current) {
       cursorDot.current.style.transform = "translate(-50%, -50%) scale(0.7)";
       cursorDotOutline.current.style.transform =
@@ -119,7 +119,7 @@ function Cursor() {
    * Applies mouseover/out hooks on all links
    * to trigger cursor animation
    */
-  function handleLinkHovers() {
+  const handleLinkHovers=()=> {
     document.querySelectorAll("a").forEach((el) => {
       el.addEventListener("mouseover", () => {
         cursorEnlarged.current = true;

@@ -34,12 +34,7 @@ function Navbar() {
             MUSIC
           </Link>
         </li>
-        <li className="navbar--list_item">
-          {" "}
-          <Link className="navbar--list_link" to="/promo" onClick={burgerCross}>
-            PROMO MIX
-          </Link>
-        </li>
+     
         <li className="navbar--list_item">
           {" "}
           <Link className="navbar--list_link" to="/media" onClick={burgerCross}>
