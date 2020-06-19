@@ -34,3 +34,41 @@
   margin: 0 10px 0 0;
   float: left;
 }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+iframe{
+  width:300px;
+  height:80vh;
+}
+
+.music--wrapper {
+  height: 100vh;
+  width: 100%;
+
+}
+
+}
+@media screen and (max-width: 900px) {
+.music--wrapper {
+  height: 100vh;
+  width: 100%;
+
+}
+iframe{
+  width:300px;
+  height:80vh;
+}
+
+}
+@media screen and (max-width: 1024px) {
+.music--wrapper {
+  height: 100vh;
+  width: 100%;
+ 
+}
+iframe{
+  width:300px;
+  height:80vh;
+}
+}
