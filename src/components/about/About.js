@@ -37,7 +37,7 @@ function About() {
         <div className="about--container_ind">
           <img className="about-img_ind" src={Lennart} alt="lennart" />
           <div className="about--box_ind">
-            {" "}
+            
             <h3 className="about--header_ind">
               LENNART HOFTIJZER , DJ & PRODUCER
             </h3>
