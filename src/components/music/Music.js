@@ -4,7 +4,7 @@ import "./music.scss";
 function Music() {
   return (
     <div className="music--wrapper">
-    <iframe title ='spotify' src="https://open.spotify.com/embed/playlist/37H7j4nyqxGu0KEBDuShJ8" width="1100" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/artist/6D53Kee5eQV6bW3TBNWIzE" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
   );
  }
