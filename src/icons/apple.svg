@@ -2,16 +2,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128pt" height="128pt" viewBox="0 0 128 128" version="1.1">
 <defs>
 <linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="102.125" y1="12.31681" x2="102.125" y2="157.92556" gradientTransform="matrix(0.744186,0,0,0.744186,0,0)">
-<stop offset="0" style="stop-color:rgb(16.470588%,96.078431%,59.607843%);stop-opacity:1;"/>
-<stop offset="1" style="stop-color:rgb(0%,61.960784%,99.215686%);stop-opacity:1;"/>
+<stop offset="0" style="stop-color:#fcba03;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:#FF721B"/>
 </linearGradient>
 <linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="87.14219" y1="12.31681" x2="87.14219" y2="157.92556" gradientTransform="matrix(0.744186,0,0,0.744186,0,0)">
-<stop offset="0" style="stop-color:rgb(16.470588%,96.078431%,59.607843%);stop-opacity:1;"/>
-<stop offset="1" style="stop-color:rgb(0%,61.960784%,99.215686%);stop-opacity:1;"/>
+<stop offset="0" style="stop-color:#fcba03;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:#FF721B"/>
 </linearGradient>
 <linearGradient id="linear2" gradientUnits="userSpaceOnUse" x1="52.07838" y1="69.96906" x2="52.07838" y2="139.64519" gradientTransform="matrix(0.744186,0,0,0.744186,0,0)">
-<stop offset="0" style="stop-color:rgb(58.431373%,98.039216%,80%);stop-opacity:1;"/>
-<stop offset="1" style="stop-color:rgb(43.137255%,78.431373%,100%);stop-opacity:1;"/>
+<stop offset="0" style="stop-color:#fcba03"/>
+<stop offset="1" style="stop-color:#FF721B"/>
 </linearGradient>
 </defs>
 <g id="surface1725921">
