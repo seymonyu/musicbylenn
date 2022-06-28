@@ -21,15 +21,11 @@ function About() {
         <img className="about--image" src={Lenn} alt="lenn" />
         <h1 className="about--header">ABOUT</h1>
         <p className="about--text">
-          Lennart Hoftijzer and Len Bloemers are two youth-friends from the
-          Netherlands, who founded the dj, producer and mc-duo 'LENN'. Their
-          music is categorized in tech-house and future/electro house. The calm
-          and perfectionist personality of Lennart is complemented by Len's
-          uplifting energy, humor and enthusiasm. Because of this, they
-          complement each other perfect in both the studio or stage. There are
-          two more significant reasons for the phenomenal connection between
-          these two personalities: their name and their passion for music. They
-          love to share their passion and love for music with their audience.
+        Words can’t describe the special connection between these men. They are not only sharing the same name; they also share the same passion for music. Lennart Hoftijzer and Len Bloemers are two youth friends who have grown up together in Winterswijk, the Netherlands. Back in 2019, they formed the dj and producer duo ‘LENN’.Lennart is the man behind the knobs. He is self-taught and produces all the music himself. When he saw Martin Garrix, Hardwell and Dimitri Vegas & Like Mike performing at Mysteryland back in 2014, he was inspired and decided to start learning music production and DJ’ing.
+Len started MC'ing in the summer of 2018. On a party, he thought the atmosphere could use a little boost. When he decided to pick up the microphone for the first time that night, it became clear that this would not be the last time. Len takes pleasure in entertaining the audience and sees mc'ing as an indispensable extension of the performance. With his inexhaustible energy and humor, he entertains every crowd in a unique way.
+The energetic dance tracks produced by LENN have not gone unnoticed by the big names of the EDM scene. None other than Hardwell, Timmy Trumpet, Dimitri Vegas & Like Mike and Blasterjaxx have played music from LENN on the mainstages of the world's biggest dance festivals, including EDC in Mexico and Ultra Music Festival in Miami.
+In addition, LENN has also released music on the label 'Green Room' of the former No. 1 DJ of the world Like Mike and LENN was allowed to create an official remix for Like Mike. LENN also has several releases on Rene Rodrigezz's Austrian label 'Big Smile Records'. Combined on all platforms, the counter stands at one million streams.
+With lots of new music and collaborations on the way, LENN is working hard to make his mark on the EDM scene.
         </p>
       </div>
       <div className="about--container_white">
